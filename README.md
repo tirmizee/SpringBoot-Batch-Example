@@ -1,7 +1,6 @@
 # SpringBoot-Batch
 
-### Job Flow
-
+### Job
 - <b>Step</b>
 - <b>ItemReader</b>
 - <b>ItemProcessor</b>
