@@ -10,4 +10,5 @@
 - https://www.jackrutorial.com/2018/03/quartz-scheduler-annotation-with-spring-batch-in-spring-boot-tutorial.html
 - https://docs.spring.io/spring-batch/docs/current/reference/html/spring-batch-integration.html#asynchronous-processors
 - https://github.com/spring-projects/spring-batch/tree/master/spring-batch-samples#remote-chunking-sample
-- https://docs.spring.io/spring-batch/docs/4.3.x/reference/pdf/spring-batch-reference.pdf
+- https://docs.spring.io/spring-batch/docs/4.3.x/reference/pdf/spring-batch-reference.pdf (official)
+- https://alexandreesl.com/tag/joblocator (joblocator)
