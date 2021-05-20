@@ -2,6 +2,12 @@
 
 ### Setup
 
+### Problem 
+
+#### How can I make an item reader thread safe
+
+- You can synchronize the read() method. you can also set saveState=false on the reader.
+
 ### Reference
 
 - https://docs.spring.io/spring-batch/docs/current/reference/html/readersAndWriters.html
