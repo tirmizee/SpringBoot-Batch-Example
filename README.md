@@ -19,9 +19,7 @@
 		SpringApplication.run(SpringBatchSample1Application.class, args);
 	}
 
-}
-
-### Problem 
+} 
 
 #### How can I make an item reader thread safe
 
