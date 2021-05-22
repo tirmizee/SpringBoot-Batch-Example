@@ -35,3 +35,4 @@
 - https://github.com/spring-projects/spring-batch/tree/master/spring-batch-samples#remote-chunking-sample
 - https://docs.spring.io/spring-batch/docs/4.3.x/reference/pdf/spring-batch-reference.pdf (official)
 - https://alexandreesl.com/tag/joblocator (joblocator)
+- https://github.com/gredwhite/spring-batch-remote-execution (integration)
