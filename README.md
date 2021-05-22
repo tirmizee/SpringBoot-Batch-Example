@@ -2,6 +2,11 @@
 
 ### Setup
 
+    <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-batch</artifactId>
+		</dependency>
+
 ### Problem 
 
 #### How can I make an item reader thread safe
