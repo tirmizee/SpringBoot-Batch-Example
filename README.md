@@ -9,6 +9,18 @@
 	   <artifactId>spring-boot-starter-batch</artifactId>
     </dependency>
 
+##### Enable spring batch
+
+	@EnableBatchProcessing
+	@SpringBootApplication
+	public class SpringBatchSample1Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBatchSample1Application.class, args);
+	}
+
+}
+
 ### Problem 
 
 #### How can I make an item reader thread safe
