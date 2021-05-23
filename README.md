@@ -2,7 +2,24 @@
 
 ### Setup
 
-### Problem 
+##### Add dependencies
+
+    <dependency>
+	   <groupId>org.springframework.boot</groupId>
+	   <artifactId>spring-boot-starter-batch</artifactId>
+    </dependency>
+
+##### Enable spring batch
+
+	@EnableBatchProcessing
+	@SpringBootApplication
+	public class SpringBatchSample1Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBatchSample1Application.class, args);
+	}
+
+
 
 #### How can I make an item reader thread safe
 
@@ -18,3 +35,4 @@
 - https://github.com/spring-projects/spring-batch/tree/master/spring-batch-samples#remote-chunking-sample
 - https://docs.spring.io/spring-batch/docs/4.3.x/reference/pdf/spring-batch-reference.pdf (official)
 - https://alexandreesl.com/tag/joblocator (joblocator)
+- https://github.com/gredwhite/spring-batch-remote-execution (integration)
