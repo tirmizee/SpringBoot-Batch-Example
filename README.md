@@ -36,3 +36,4 @@
 - https://docs.spring.io/spring-batch/docs/4.3.x/reference/pdf/spring-batch-reference.pdf (official)
 - https://alexandreesl.com/tag/joblocator (joblocator)
 - https://github.com/gredwhite/spring-batch-remote-execution (integration)
+- https://code.likeagirl.io/four-ways-to-scale-spring-batch-3ad5042e0266 (scaling)
