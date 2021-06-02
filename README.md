@@ -2,7 +2,11 @@
 
 ### Setup
 
-##### Add dependencies
+##### database
+
+	docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=password -e POSTGRES_USER=root -e POSTGRES_DB=docker -d postgres
+
+##### dependencies
 
     <dependency>
 	   <groupId>org.springframework.boot</groupId>
@@ -36,3 +40,5 @@
 - https://docs.spring.io/spring-batch/docs/4.3.x/reference/pdf/spring-batch-reference.pdf (official)
 - https://alexandreesl.com/tag/joblocator (joblocator)
 - https://github.com/gredwhite/spring-batch-remote-execution (integration)
+- https://code.likeagirl.io/four-ways-to-scale-spring-batch-3ad5042e0266 (scaling)
+- https://github.com/quartz-scheduler/quartz/blob/master/quartz-core/src/main/resources/org/quartz/impl/jdbcjobstore/tables_postgres.sql
