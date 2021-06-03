@@ -52,10 +52,10 @@ public class QuartzConfiguration {
     public CronTriggerFactoryBean jobOneTrigger(
     		@Qualifier("jobOneDetail") JobDetail jobDetail,
     		@Value("${job.invoice.cron.expression}") String cronExpression) {
-        return createCronTrigger(jobDetail, cronExpression);
+        return this.createCronTrigger(jobDetail, cronExpression);
     }
 	
-	private static CronTriggerFactoryBean createCronTrigger(JobDetail jobDetail, String cronExpression) {
+	private CronTriggerFactoryBean createCronTrigger(JobDetail jobDetail, String cronExpression) {
         CronTriggerFactoryBean factoryBean = new CronTriggerFactoryBean();
         factoryBean.setJobDetail(jobDetail);
         factoryBean.setCronExpression(cronExpression);

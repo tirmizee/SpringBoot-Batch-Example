@@ -1,0 +1,23 @@
+version: '3.1'
+
+services: 
+   active-mq:
+      image: rmohr/activemq
+      ports:
+         - target: 8161
+           published: 8161
+           protocol: tcp
+         - target: 61616
+           published: 61616
+           protocol: tcp
+   postgres-db:
+      image: postgres
+      ports:
+         - target: 5432
+           published: 5432
+      environment:
+         POSTGRES_USER: root
+         POSTGRES_PASSWORD: password
+         POSTGRES_DB: jobdb
+         
+         
