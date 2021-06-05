@@ -42,3 +42,4 @@
 - https://github.com/gredwhite/spring-batch-remote-execution (integration)
 - https://code.likeagirl.io/four-ways-to-scale-spring-batch-3ad5042e0266 (scaling)
 - https://github.com/quartz-scheduler/quartz/blob/master/quartz-core/src/main/resources/org/quartz/impl/jdbcjobstore/tables_postgres.sql
+- https://docs.spring.io/spring-batch/docs/current/reference/html/spring-batch-integration.html
