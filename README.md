@@ -44,3 +44,5 @@
 - https://github.com/quartz-scheduler/quartz/blob/master/quartz-core/src/main/resources/org/quartz/impl/jdbcjobstore/tables_postgres.sql
 - https://docs.spring.io/spring-batch/docs/current/reference/html/spring-batch-integration.html
 - https://docs.spring.io/spring-batch/docs/current/reference/html/scalability.html#remoteChunking
+- https://github.com/spring-projects/spring-batch/blob/main/spring-batch
+- samples/src/main/java/org/springframework/batch/sample/remotepartitioning/polling/ManagerConfiguration.java
