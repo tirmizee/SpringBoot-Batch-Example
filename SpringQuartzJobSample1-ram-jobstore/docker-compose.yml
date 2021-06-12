@@ -16,8 +16,8 @@ services:
          - target: 5432
            published: 5432
       environment:
-         POSTGRES_USER: root
-         POSTGRES_PASSWORD: password
+         POSTGRES_USER: jobdb
+         POSTGRES_PASSWORD: jobdb
          POSTGRES_DB: jobdb
          
          
