@@ -45,3 +45,4 @@
 - https://docs.spring.io/spring-batch/docs/current/reference/html/spring-batch-integration.html
 - https://docs.spring.io/spring-batch/docs/current/reference/html/scalability.html#remoteChunking
 - https://github.com/spring-projects/spring-batch/tree/main/spring-batch-samples/src/main/java/org/springframework/batch/sample/remotechunking
+- https://docs.spring.io/spring-batch/docs/current/reference/html/index-single.html
