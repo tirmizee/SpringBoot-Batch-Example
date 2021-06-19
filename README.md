@@ -46,3 +46,4 @@
 - https://docs.spring.io/spring-batch/docs/current/reference/html/scalability.html#remoteChunking
 - https://github.com/spring-projects/spring-batch/tree/main/spring-batch-samples/src/main/java/org/springframework/batch/sample/remotechunking
 - https://docs.spring.io/spring-batch/docs/current/reference/html/index-single.html
+- https://www.petrikainulainen.net/programming/spring-framework/spring-batch-tutorial-writing-information-to-a-database-with-jdbc/ (JdbcBatchItemWriter)
