@@ -29,6 +29,10 @@
 
 - You can synchronize the read() method. you can also set saveState=false on the reader.
 
+#### Whether configured jobs should overwrite existing job definitions.
+
+- spring.quartz.overwrite-existing-jobs = true
+
 ### Reference
 
 - https://docs.spring.io/spring-batch/docs/current/reference/html/readersAndWriters.html
